@@ -18,9 +18,9 @@ phases:
       - echo Compiling the Node.js code
       - npm run test
       - npm prune --production
-  post_build:
-    commands:
-      - echo Build completed on `date`
+  #post_build:
+    #commands:
+      #- echo Build completed on `date`
 # Include only the files required for your application to run.
 #artifacts:
   #files:
